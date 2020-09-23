@@ -5,3 +5,72 @@
   margin: 80px auto $base-margin auto;
   background-color: $white;
 }
+
+#all {
+  padding: 15px;
+  background-color: $white;
+}
+
+.number{
+  float: right;
+  margin: 22px -67px;
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  color: white;
+  font-size: small;
+
+}
+
+.bi-cart-check{
+  float: right;
+  margin: 15px 30px;
+}
+
+.top {
+  height: 60px;
+  background-color: $support-blue;
+  color: white;
+  padding-top: 1%;
+}
+
+.store {
+  font-size: 200%;
+  margin-left: 20px;
+}
+
+img {
+  width: 80%;
+  height: 120px;
+  margin: 10px 20px;
+}
+
+.category{
+  margin-top: 20px;
+}
+
+.products {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  text-align: center;
+}
+
+.product {
+  box-sizing: border-box;
+  flex: 0 0 33%;
+  height: 250px;
+}
+
+.button{
+  width: 90px;
+  height: 25px;
+  font-size: revert;
+  background-color: #096ee3;
+  color: white;
+  border-radius: 2%;
+  border: 0 solid #096ee3 ;
+  margin-left: 10px;
+}
